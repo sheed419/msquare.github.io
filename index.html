@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>msquare</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    </head>
+    
+    <body>
+        <!--header section-->
+        <header id="home">
+            <!--Links-->
+            <nav class="section-content">
+                <ul>
+                    <li class="section-content"><a href="#projects">Projects</a></li>
+                    <li class="section-content"><a href="#gallery">Gallery</a></li>
+                    <li class="section-content"><a href="#skills">Services</a></li>
+                    <li class="section-content"><a href="#contact">Contact</a></li>
+                    <li class="section-content"><a href="#socials">Social media</a></li>
+                </ul>
+            </nav>
+
+            <div class="hamburger section-content">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <!--Profile picture-->
+            <div id="profile-pic" class="section-content">
+                <img src="images/profilePic/profile.png" alt="Profile_pic.jpg">
+            </div>
+            
+            <!--name and job titles-->
+            <div class="header-content">
+                <h1>Muniru Musah</h1>
+                <h2>Founder and owner of M-square construction and Electricals</h2>
+                <p>| Building contractor | Electrician | Plumber | Carpenter  |</p>
+            </div>
+        </header>
+
+        <hr id="heaPro">
+
+        <!-- about section -->
+        <div id="about">
+            <!-- about me card -->
+            <div class="about-content section-content">
+                <div class="about-image section-content">
+                    <img src="images/profilePic/WhatsApp Image 2024-09-25 at 16.20.35.jpeg">
+                </div>
+                <div class="about-text section-content">
+                    <h2>About Me</h2>
+                    <p>Welcome to my portfolio! I am Muniru Musah, the founder and owner of M-square Construction and Electricals. 
+                        With a passion for building and a commitment to quality, I have honed my skills in various trades including plumbing, electrical work, carpentry, and general contracting. 
+                        My goal is to bring your vision to life, ensuring every project is completed with precision and care.</p>
+
+                    <p>I believe in the importance of communication and collaboration throughout the entire construction process, from the initial design to the final touches. Let's build something great together!</p>
+                </div>    
+            </div>
+
+            <!-- About msquare card -->
+            <div class="about-content section-content">
+                <div class="about-image section-content" id="mslogo">
+                    <img src="images/mSquareLogo/photo_2024-10-16_06-13-50.jpg" alt="M-Square Construction and Electricals">
+                </div>
+                <div class="about-text section-content">
+                    <h2>About M-Square Construction and Electricals</h2>
+                    <p>M-Square Construction and Electricals is dedicated to delivering top-notch construction and electrical services. 
+                        Our team comprises experienced professionals who are committed to excellence in every project. 
+                        We focus on customer satisfaction, ensuring that all work meets the highest standards of quality.</p>
+        
+                    <p>From residential to commercial projects, we have the expertise to handle a variety of construction needs. 
+                        Trust us to turn your ideas into reality!</p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!--portfolio section: showing project undertakings(AutoCAD version for beautification)-->
+        <main>
+            <div id="projects" class="section section-content">
+                <h2 class="section-content">Project Undertakings</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item section-content">
+                        <img src="images\CAD\WhatsApp Image 2024-09-15 at 10.10.20.jpeg" alt="project1_image">
+                        <h3>Wasila's Apartments</h3>
+                        <p>Located in Sunyani</p>
+                    </div>
+    
+                    <div class="portfolio-item section-content">
+                        <img src="images\sample1\WhatsApp Image 2024-09-15 at 10.03.43.jpeg">
+                        <h3>Man and Man company Apartments</h3>
+                        <p>Located in Kumasi Bebu</p>
+                    </div>
+    
+                    <div class="portfolio-item section-content">
+                        <img src="images\sample1\WhatsApp Image 2024-09-15 at 10.03.44.jpeg">
+                        <h3>Residential Apartment Project</h3>
+                        <p>Located in Yeji</p>
+                    </div>
+
+                    <div class="portfolio-item section-content">
+                        <img src="images\sample1\WhatsApp Image 2024-09-15 at 10.03.39.jpeg">
+                        <h3>Residential Apartment Project</h3>
+                        <p>Located In Pakyi No. 1</p>
+                    </div>
+                    <!--Add more projects (portfolio items) If needed-->
+                </div>
+            </div>
+
+            <hr id="proGa">
+
+            <!--gallery section, displaying work photodump-->
+            <div id="gallery" class="section">
+                <h2>Work Photodump</h2>
+                <div class="gallery-container">
+                    <div class="image-card section-content" onclick="openModal(this)">
+                        <img id="Image1" class="image" src="images\sample2\WhatsApp Image 2024-09-15 at 09.44.06.jpeg" alt="Image">
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)">
+                        <img id="Image2" class="image" src="images\sample4\WhatsApp Image 2024-09-15 at 09.30.40 (3).jpeg" alt="Image">
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)">
+                        <img id="Image3" class="image" src="images\sample2\WhatsApp Image 2024-09-15 at 09.44.07.jpeg" alt="Image">
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)">
+                        <img id="Image4" class="image" src="images\sample2\WhatsApp Image 2024-09-15 at 09.44.06 (1).jpeg" alt="Image">
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)">
+                        <img id="Image5" class="image" src="images\sample4\WhatsApp Image 2024-09-15 at 09.30.37 (1).jpeg" alt="Image">
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)">                    
+                        <img id="Image6" class="image" src="images\sample4\WhatsApp Image 2024-09-15 at 09.30.37 (2).jpeg" alt="Image">
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)">                    
+                        <img id="Image6" class="image" src="images\sample4\WhatsApp Image 2024-09-15 at 09.30.37 (2).jpeg" alt="Image">
+                    </div> 
+                    <div class="image-card section-content" onclick="openModal(this)">  
+                        <img id="Image7" class="image" src="images\sample4\WhatsApp Image 2024-09-15 at 09.30.37 (3).jpeg" alt="Image">                  
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)"> 
+                        <img id="Image8" class="image" src="images\sample4\WhatsApp Image 2024-09-15 at 09.30.37.jpeg" alt="Image">
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)"> 
+                        <img id="Image9" class="image" src="images\sample4\WhatsApp Image 2024-09-15 at 09.30.38 (1).jpeg" alt="Image">
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)"> 
+                        <img id="Image10" class="image" src="images\sample4\WhatsApp Image 2024-09-15 at 09.30.38 (2).jpeg" alt="Image">
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)">
+                        <img id="Image11" class="image" src="images\sample4\WhatsApp Image 2024-09-15 at 09.30.38 (3).jpeg" alt="Image">
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)">
+                        <img id="Image12" class="image" src="images\sample4\WhatsApp Image 2024-09-15 at 09.30.39 (1).jpeg" alt="Image">
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)">
+                        <img id="Image13" class="image" src="images\sample4\WhatsApp Image 2024-09-15 at 09.30.39 (2).jpeg" alt="Image">
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)">
+                        <img id="Image14" class="image" src="images\sample4\WhatsApp Image 2024-09-15 at 09.30.39 (3).jpeg" alt="Image">
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)">
+                        <img id="Image15" class="image" src="images\sample4\WhatsApp Image 2024-09-15 at 09.30.40 (1).jpeg" alt="Image">
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)">
+                        <img id="Image16" class="image" src="images\sample4\WhatsApp Image 2024-09-15 at 09.30.41 (1).jpeg" alt="Image">
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)">
+                        <img id="Image17" class="image" src="images\sample4\WhatsApp Image 2024-09-15 at 09.30.41 (2).jpeg" alt="Image">
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)">
+                        <img id="Image18" class="image" src="images\sample4\WhatsApp Image 2024-09-15 at 09.30.41 (3).jpeg" alt="Image">
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)">
+                        <img id="Image19" class="image" src="images\sample4\WhatsApp Image 2024-09-15 at 09.30.41.jpeg" alt="Image">
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)">
+                        <img id="Image20" class="image" src="images\sample4\WhatsApp Image 2024-09-15 at 09.30.42 (1).jpeg" alt="Image">
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)">
+                        <img id="Image21" class="image" src="images\sample4\WhatsApp Image 2024-09-15 at 09.30.42 (2).jpeg" alt="Image">
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)">
+                        <img id="Image22" class="image" src="images\sample4\WhatsApp Image 2024-09-15 at 09.30.42 (3).jpeg" alt="Image">
+                    </div>
+                    <div class="image-card section-content" onclick="openModal(this)">
+                        <img id="Image23" class="image" src="images\sample4\WhatsApp Image 2024-09-15 at 09.30.43.jpeg" alt="Image">
+                    </div>
+                </div>
+                <div id="modal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="modalImg">
+                    <div id="caption"></div>
+                </div>
+            </div>
+
+
+            <hr id="gaSki" class="section-content">
+
+            <!-- skills/services section showing services offered -->
+            <div id="skills" class="section section-content">
+                <h2 class="section-content">At M-square we provide the following services:</h2>
+                <div class="services-container section-content">
+                    <div class="service-card section-content">
+                        <i class="fas fa-bolt service-icon"></i>
+                        <h3>Electrical Wiring</h3>
+                        <p>We specialize in providing safe and reliable electrical wiring solutions for both residential and commercial properties.</p>
+                    </div>
+                    <div class="service-card section-content">
+                        <i class="fas fa-hard-hat service-icon"></i>
+                        <h3>Roofing</h3>
+                        <p>Our roofing services ensure that your home is protected with high-quality materials and expert installation.</p>
+                    </div>
+                    <div class="service-card section-content">
+                        <i class="fas fa-tools service-icon"></i>
+                        <h3>Tiling</h3>
+                        <p>We offer professional tiling services to enhance the beauty and functionality of your spaces.</p>
+                    </div>
+                    <div class="service-card section-content">
+                        <i class="fas fa-wrench service-icon"></i>
+                        <h3>Plumbing</h3>
+                        <p>Our plumbing services cover everything from repairs to installations, ensuring your systems run smoothly.</p>
+                    </div>
+                    <div class="service-card section-content">
+                        <i class="fas fa-hammer service-icon"></i>
+                        <h3>Carpentry</h3>
+                        <p>We provide custom carpentry services tailored to your needs, ensuring quality and craftsmanship in every project.</p>
+                    </div>
+                </div>
+            </div>
+            
+    
+            <hr id="skiCont" class="section-content">
+
+            <!--contact section showing phone number and email-->
+            <div id="contact" class="section section-content">
+                <h2 class="section-content">Contact Us</h2>
+                <div class="contact-card section-content">
+                    <p class="section-content">
+                        <i class="fas fa-phone section-content"></i>
+                        : (+233) 24-446-4899
+                    </p>
+                    <p class="section-content">
+                        <a href="mailto:msquareconstruction99@gmail.com" class="email-button"><i class="fas fa-envelope"></i>:msquareconstruction99@gmail.com</a> 
+                    </p>
+                </div>    
+            </div>
+
+            <hr id="contSoc">
+    
+
+            <!-- social media section, showing social media presence of individual/company -->
+            <div id="socials" class="section section-content">
+                <h2 class="section-content">Social media:</h2>
+                <a href="https://instagram.com">
+                    <i class="fab fa-instagram section-content"></i>
+                </a>
+                <a href="https://linkedin.com">
+                    <i class="fab fa-linkedin section-content"></i>
+                </a>  
+                <a href="https://facebook.com">
+                    <i class="fab fa-facebook section-content"></i>
+                </a>
+                <a href="https://twitter.com">
+                    <i class="fab fa-twitter section-content"></i>
+                </a>
+            </div>
+
+        </main>
+        
+        
+        <footer>
+            <a href="#home">Back to top</a>
+            <br><br>
+            <p>&copy; 2024 OutSiders&trade;. All rights reserved.</p>
+        </footer>
+    </body>
+    <script src="script.js"></script>
+</html>
